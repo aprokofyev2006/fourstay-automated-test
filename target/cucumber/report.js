@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8000656877,
+  "duration": 3588416500,
   "status": "passed"
 });
 formatter.scenario({
@@ -32,18 +32,18 @@ formatter.match({
   "location": "TestStepDefs.i_run_this()"
 });
 formatter.result({
-  "duration": 9861690882,
+  "duration": 2531394275,
   "status": "passed"
 });
 formatter.match({
   "location": "TestStepDefs.it_should_pass()"
 });
 formatter.result({
-  "duration": 617250314,
+  "duration": 182868980,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2025954129,
+  "duration": 1236846157,
   "status": "passed"
 });
 });
