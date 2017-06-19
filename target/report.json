@@ -1,12 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 3588416500,
+              "duration": 4792453764,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 2,
-        "name": "test scenario",
+        "line": 3,
+        "name": "test for step defs 2",
         "description": "",
-        "id": "test;test-scenario",
+        "id": "test-for-step-defs-2;test-for-step-defs-2",
         "after": [
           {
             "result": {
-              "duration": 1236846157,
+              "duration": 978242847,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2531394275,
+              "duration": 3066087888,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "I run this",
             "match": {
               "location": "TestStepDefs.i_run_this()"
@@ -46,23 +46,35 @@
           },
           {
             "result": {
-              "duration": 182868980,
+              "duration": 348156898,
               "status": "passed"
             },
-            "line": 4,
-            "name": "it should pass",
+            "line": 5,
+            "name": "serching for \"selenium\"",
             "match": {
-              "location": "TestStepDefs.it_should_pass()"
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 14
+                }
+              ],
+              "location": "TestStepDefs2.serching_for(String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "test",
+    "name": "test for Step defs 2",
     "description": "",
-    "id": "test",
+    "id": "test-for-step-defs-2",
     "keyword": "Feature",
-    "uri": "test.feature"
+    "uri": "testForStepDefs2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@stepdef2"
+      }
+    ]
   }
 ]

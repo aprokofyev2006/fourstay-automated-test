@@ -4,8 +4,8 @@
   <artifactId>fourstay-automated-tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
-   <build>
+
+  <build>
         <plugins>
             <!-- Allow Java 8 -->    
             
@@ -21,6 +21,8 @@
            </plugins>
   </build>
 
+  
+   
 	<dependencies>
 
 		<dependency>

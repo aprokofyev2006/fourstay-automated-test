@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 		plugin={"html:target/cucumber","json:target/report.json"},
 		features="src/test/resources/com/stay/features",       
 		glue="com/stay/stepdefs",
-		dryRun=false
-//		tags="@dice"	
+		dryRun=false,
+		tags="@stepdef2"	
 		)
 
 public class CukesRunner {
