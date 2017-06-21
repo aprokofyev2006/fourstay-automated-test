@@ -1,5 +1,6 @@
 package com.stay.stepdefs;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.regex.Matcher;
@@ -43,6 +44,7 @@ public class TestStepDefs2 {
 	    System.out.println(result);
 	    assertTrue(result>arg1);
 	    System.out.println("add for git");
+	    assertEquals(1, 0);
 	    // comment
 	    
 	    
