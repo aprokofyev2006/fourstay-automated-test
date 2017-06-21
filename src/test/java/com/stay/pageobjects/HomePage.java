@@ -19,5 +19,8 @@ private WebDriver driver;
 	}
 	@FindBy(name="q") @CacheLookup
 	public WebElement search;
+	
+	@FindBy(id="resultStats") @CacheLookup
+	public WebElement result;
 
 }
