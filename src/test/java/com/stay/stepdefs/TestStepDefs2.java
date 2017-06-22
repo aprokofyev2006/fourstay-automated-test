@@ -43,8 +43,7 @@ public class TestStepDefs2 {
 	    int result = Integer.valueOf(sb.toString());
 	    System.out.println(result);
 	    assertTrue(result>arg1);
-	    System.out.println("add for git");
-	    System.out.println("undo");
+	    System.out.println("add for git git");
 	    assertEquals(1, 0);
 	    // comment
 	    
