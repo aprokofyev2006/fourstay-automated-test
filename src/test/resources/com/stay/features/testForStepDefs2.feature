@@ -1,3 +1,4 @@
+@smokeTest
 @stepdef2
 Feature: test for Step defs 2
 Background: 

@@ -19,12 +19,20 @@ public class Hook {
 		Driver.getInstance().manage().window().maximize();
 	}
 	
+	Scenario scenario;
+	@Before
+	public void beforeScenario(Scenario scenario) {
+	  this.scenario = scenario;
+	  System.out.println("before each scenario");
+	}
+	
 	@After
 	public void threadDown(Scenario scenario ){
 		// this method takes screenshot if scenario fails
 		if (scenario.isFailed()) {
 			final byte[] screenshot = ((TakesScreenshot) Driver.getInstance()).getScreenshotAs(OutputType.BYTES);
 			scenario.embed(screenshot, "image/png");
+			
 		}
 		Driver.closeDriver();
 	}
