@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/resources/com/stay/features",       
 		glue="com/stay/stepdefs",
 		dryRun=false,
-		tags="@stepdef2"	
+		tags="@amazonTest"	
 		)
 
 public class CukesRunner {
